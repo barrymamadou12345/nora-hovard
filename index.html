@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Page de depart </title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.formul.css">
+    </head>
+    <body>
+        <form method="post" action="examen.php">
+            <fieldset id="set1">
+                <legend>Vos coordonnées</legend> 
+                <label for="prenom"> Prenom</label>
+                <input type="text" id="prenom" name="prenom"placeholder="prenom"> <br>
+                <label for="password">Mot de passe</label>
+                <input type="password" id="password" name="password" placeholder="password"><br>
+                <label for="naissance">Date de naissance</label>
+                <input type="date" id="naissance" name="naissance" placeholder="naissance"><br>
+                <label for="email">Votre email</label>
+                <input type="email" id="email" name="email" placeholder="email"><br>
+                <label for="nombre"> Un nombre</label>
+                <input type="number" id="nombre" name="nombre" placeholder="nombre"><br>
+            </fieldset><br><br>
+            <fieldset id="set2">
+               <legend> Faites un choix </legend>
+                <input type="radio" id="homme" name="sexe" value="homme">
+                <label for="homme"> Un homme</label> <br>
+                <input type="radio" id="homme" name="sexe" value="femme">
+                <label for="femme"> Une femme</label> <br>
+                <input type="radio" id="enfent" name="sexe" value="enfent">
+                <label for="enfent"> Un enfent</label> <br>
+                <input type="radio" id="vieux" name="sexe" value="vieux">
+                <label for="vieux"> Un vieux</label> <br>
+            </fieldset><br><br>
+            <fieldset id="set3">
+                <legend>Quels sont vos moyens de deplacement préferer ?</legend> 
+                <input type="checkbox" name="sport" id="vélo" value="vélo">
+                <label for="vélo"> Un vélo</label> <br>
+                <input type="checkbox" name="sport" id="moto" value="moto">
+                <label for="moto"> Une moto</label> <br>
+                <input type="checkbox" name="sport" id="voiture" value="voiture">
+                <label for="voiture"> Une voiture</label> <br>
+                <input type="checkbox" name="sport" id="avion" value="avion">
+                <label for="avion"> Un avion</label> <br>
+                <input type="checkbox" name="sport" id="bateau" value="bateau">
+                <label for="bateau"> Un bateau</label> <br><br>
+                <select name="pays" id="pays">
+                    <optgroup label="AFRIQUE">
+                        <option value="Maroc">Maroc</option>
+                        <option value="Algerie">Algerie</option>
+                        <option value="Sénégal">Sénégal</option>
+                        <option value="Guinée">Guinée</option>
+                        <option value="Togo">Togo</option>
+                    </optgroup><br>
+                        <optgroup label="EUROPE">
+                        <option value="France">France</option>
+                        <option value="belgique">Belgique</option>
+                    </optgroup>
+                </select>
+            </fieldset>
+            <center> <input type="submit" value="Envoyer"></center>
+        </form>
+    </body>

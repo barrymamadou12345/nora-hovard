@@ -1,0 +1,39 @@
+
+legend{
+    background-color: aqua;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+}
+legend:hover{
+    background-color:yellow;
+}
+
+ #set1{
+    background-color: rgba(110, 61, 5, 0.6);
+    padding: 10px;
+    margin: 20px 0;
+    border: 3px dashed black ;
+    border-radius: 10%;
+}
+
+#set1 label{
+    padding: 10px 20px 15px 40px;
+    display: inline-block;
+    width: 200px;
+    background-color:rgb(197, 16, 106) ;
+}
+
+#set1 label:hover{
+    background-color: orange;
+}
+
+#set1 input{
+    width: 300px;
+    height: 32px;
+    background-color: rgba(208, 231, 143, 0.6);
+}
+
+#set1 input:hover{
+    background-color: rgb(255, 251, 0);
+}
